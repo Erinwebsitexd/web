@@ -8,8 +8,6 @@ document.getElementById("continuebutton").addEventListener("click", function() {
         "./songs/2.mp3",
         "./songs/3.mp3",
         "./songs/4.mp3",
-        "./songs/5.mp3",
-        "./songs/6.mp3",
     ];
     const index = Math.floor(Math.random() * files.length);
     const audioplayer = document.getElementById("musicplayer");
